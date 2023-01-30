@@ -40,3 +40,5 @@ foreach(L ${QT_LIBS})
     target_precompile_headers(xrayr PRIVATE <Qt${L}>)
     target_link_libraries(xrayr PRIVATE Qt${QT_VERSION_MAJOR}::${L})
 endforeach()
+
+target_precompile_headers(xrayr PRIVATE "stable.h")

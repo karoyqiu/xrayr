@@ -1,11 +1,11 @@
 #pragma once
-#include <QWidget>
+#include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainForm; }
 QT_END_NAMESPACE
 
-class MainForm : public QWidget
+class MainForm : public QMainWindow
 {
     Q_OBJECT
 

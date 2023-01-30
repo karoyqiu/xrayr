@@ -3,7 +3,7 @@
 
 
 MainForm::MainForm(QWidget *parent)
-    : QWidget(parent)
+    : QMainWindow(parent)
     , ui(new Ui::MainForm)
 {
     ui->setupUi(this);
